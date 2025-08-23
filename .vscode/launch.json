@@ -4,7 +4,13 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
+        {
+            "type": "java",
+            "name": "PrimeiroPrograma",
+            "request": "launch",
+            "mainClass": "PrimeiroPrograma",
+            "projectName": "java_2ad41a46"
+        },
         {
             "type": "java",
             "name": "Current File",
