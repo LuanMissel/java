@@ -1,0 +1,8 @@
+package horadosistema;
+public class ResoluçãoDaTela {
+    public static void main (String[] args) {
+        Resolution tela = Locale.getDefault();
+        System.out.println ("A resolução da tela é"); 
+        System.out.println (getDefaultResolution)       
+    }
+} 
