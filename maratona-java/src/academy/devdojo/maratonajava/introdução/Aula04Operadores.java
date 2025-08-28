@@ -1,0 +1,43 @@
+package src.academy.devdojo.maratonajava.introdução;
+
+import java.util.Scanner;
+
+public class Aula04Operadores {
+    public static void main(String[] args) {
+        Scanner age = new Scanner(System.in);
+        // + _ / *
+        int numero01= 10;
+        double numero02= 20;
+        double resultado = numero01/numero02;
+
+        System.out.println(resultado);
+
+
+        // operadores relacionais
+
+        // % resto da divisão
+
+        /*
+        < menor que
+        > maior que
+        <= menor ou igual
+        >= maior ou igual
+        == igual a
+        != diferente
+        * */
+        boolean isDezMaiorQueVinte = 10 >= 20;
+        boolean isDezMenorQueVinte = 10 <= 20;
+        boolean isDezIgualVinte = 10 == 20;
+        boolean isDezDiferenteDez = 10 != 20;
+        boolean isDezIgualDez = 10 == 10;
+
+        System.out.println("isDezMaiorQueVinte " + isDezMaiorQueVinte);
+        System.out.println("isDezMenorQueVinte " + isDezMenorQueVinte);
+        System.out.println("isDezIgualVinte " + isDezIgualVinte);
+        System.out.println("isDezDiferenteDez " + isDezDiferenteDez);
+        System.out.println("isDezIgualDez " + isDezIgualDez);
+
+        // && (And) , || (Or), ! Not)
+
+    }
+}
