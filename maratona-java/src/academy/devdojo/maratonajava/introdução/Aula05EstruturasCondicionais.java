@@ -10,8 +10,7 @@ public class Aula05EstruturasCondicionais {
         boolean podeComprarBebidaAlcolica = idade >= 18;
         if (podeComprarBebidaAlcolica) {
             System.out.println("Pode comprar bebida alcolica!");
-        }
-        else {
+        }else {
             System.out.println("Não pode comprar bebida alcolica!");
         }
 
