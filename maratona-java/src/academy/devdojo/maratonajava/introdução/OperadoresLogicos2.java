@@ -13,10 +13,10 @@ public class OperadoresLogicos2 {
         String moto = aplicativo.nextLine();
 
         boolean podeSerContratado = carro.equals("sim") || moto.equals("sim");
-        boolean notPodeSerContratado = carro.equals("não") || moto.equals("não");
+        boolean notPodeSerContratado = carro.equals("não") && moto.equals("não");
 
 
-        System.out.println(podeSerContratado);
-        System.out.println(notPodeSerContratado);
+        System.out.println("Pode ser contratado " + podeSerContratado);
+        System.out.println("Não pode ser contratado " + notPodeSerContratado);
     }
 }

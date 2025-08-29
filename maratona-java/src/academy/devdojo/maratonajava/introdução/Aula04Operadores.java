@@ -38,6 +38,29 @@ public class Aula04Operadores {
         System.out.println("isDezIgualDez " + isDezIgualDez);
 
         // && (And) , || (Or), ! Not)
+        int idade = 20;
+        int horas = 7;
+        boolean idadeeHoras = idade > 30 || horas < 9;
+        System.out.println("Idade e horas " + idadeeHoras);
+
+        double contaCorrente = 200;
+        double contaPoupanca = 7000;
+        float playstationCinco = 5999F;
+        boolean comprarPlaystantion5 = contaCorrente > playstationCinco || contaPoupanca > playstationCinco;
+        System.out.println("É possivel comprar playstation5? " + comprarPlaystantion5);
+
+
+        /* Operadores de atribuição
+        = += -= *= /= %=
+        */
+
+        int contador = 0;
+        contador += 1;
+        ++contador;
+        --contador;
+        ++contador;
+        --contador;
+        System.out.println("Contador " + contador);
 
     }
 }
