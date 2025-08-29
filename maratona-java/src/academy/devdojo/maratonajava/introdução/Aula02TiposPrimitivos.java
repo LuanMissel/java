@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.introdução;
+package src.academy.devdojo.maratonajava.introdução;
 
 public class Aula02TiposPrimitivos {
     public static void main(String[] args) {
@@ -16,5 +16,11 @@ public class Aula02TiposPrimitivos {
         System.out.println("A idade é: "+ idade);
         System.out.println(falso);
         System.out.println("Char " + caractere);
+        System.out.println(salarioFloat);
+        System.out.println(salarioDouble);
+        System.out.println(numeroGrande);
+        System.out.println(idadeByte);
+        System.out.println(idadeShort);
+        System.out.println(verdadeiro);
     }
 }

@@ -1,5 +1,5 @@
 // A primeira linha que não for comentário, tem que ser o package.
-package academy.devdojo.maratonajava.introdução;
+package src.academy.devdojo.maratonajava.introdução;
 
 public class Aula01OlaDevDojo {
     public static void main (String[] args) {
