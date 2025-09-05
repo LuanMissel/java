@@ -1,7 +1,5 @@
 package src.academy.devdojo.maratonajava.introdução;
 
-import javax.swing.plaf.IconUIResource;
-
 public class Aula06EstruturasDeRepetição01 {
     public static void main(String[] args) {
         // while, do while, for

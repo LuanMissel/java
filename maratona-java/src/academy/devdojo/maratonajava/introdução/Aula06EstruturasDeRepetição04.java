@@ -13,6 +13,8 @@ public class Aula06EstruturasDeRepetição04 {
                 break;
             }
                 System.out.println(" Parcela " + parcela + " R$ " + valorParcela);
+        
+        input.close();
         }
     }
 }
