@@ -4,15 +4,18 @@ import java.util.Scanner;
 
 public class Aula04Operadores {
     public static void main(String[] args) {
-        Scanner age = new Scanner(System.in);
+         try (Scanner age = new Scanner(System.in)) {
         // + _ / *
         int numero01= 10;
         double numero02= 20;
         double resultado = numero01/numero02;
 
+        System.out.println("Digite sua idade: ");
+        int idade2 = age.nextInt();
         System.out.println(resultado);
+        
 
-
+        System.out.println(idade2);
         // operadores relacionais
 
         // % resto da divisão
@@ -61,6 +64,7 @@ public class Aula04Operadores {
         ++contador;
         --contador;
         System.out.println("Contador " + contador);
+        }
 
     }
 }
