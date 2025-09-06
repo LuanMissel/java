@@ -11,7 +11,7 @@ public class Aula07Arrays01 {
         boolean achou = false;
         for (int i = 0; i < numeros.length; i++) {
             if (numeros[i] == encontrado)  {
-                System.out.println("Achei o número " + numeros[i] + " na posição " + i);
+                System.out.println("Achei o núm ero " + numeros[i] + " na posição " + i);
                 achou = true;
                 break;
                 } 
