@@ -16,13 +16,12 @@ public class CarroTest {
         carro2.ano = 1998;
         carro2.modelo = "Wolksvagen";
 
-        System.out.println(carro1.nome + ", " + carro1.ano + ", " + carro1.modelo);
+        carro3.nome = "Eco Sport";
+        carro3.modelo = "Ford";
+        carro3.ano = 2018;
 
-        System.out.println("=======================================================");
-
-        System.out.println(carro2.nome + ", " + carro2.ano + ", " + carro2.modelo);
-
-        System.out.println("=======================================================");
-
+        carro1.imprimir();
+        carro2.imprimir();
+        carro3.imprimir();
     }
 }
