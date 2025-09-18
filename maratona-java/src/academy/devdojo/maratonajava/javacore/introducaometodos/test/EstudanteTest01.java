@@ -1,19 +1,29 @@
 package src.academy.devdojo.maratonajava.javacore.introducaometodos.test;
 
 import src.academy.devdojo.maratonajava.javacore.introducaometodos.dominio.Estudante;
-
-import java.util.Scanner;
+import src.academy.devdojo.maratonajava.javacore.introducaometodos.dominio.ImpressoraEstudantes;
 
 public class EstudanteTest01 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        Estudante estudante = new Estudante();
-        System.out.println("Digite o seu nome e a sua turma ");
-        estudante.dadosDoAluno (sc.nextLine() , sc.nextLine());
-        sc.nextLine();
-        System.out.println("Digite as duas notas: ");
-        double resultado = estudante.calculaMediaAluno(sc.nextDouble(), sc.nextDouble());
-        System.out.println("Sua média é: " + resultado);
-        estudante.imprimirNaTela();
+    Estudante estudante01 = new Estudante();
+    Estudante estudante02 = new Estudante();
+    ImpressoraEstudantes impressora = new ImpressoraEstudantes();
+    estudante01.nome = "Midoriya";
+    estudante01.sexo = 'M';
+    estudante01.idade = 16;
+
+    estudante02.nome = "Sakura";
+    estudante02.sexo = 'F';
+    estudante02.idade = 17;
+    impressora.imprime(estudante01);
+    impressora.imprime(estudante02);
+
+        System.out.println("-------------------------------------------------------------");
+
+    impressora.imprime(estudante01);
+    impressora.imprime(estudante02);
+    // esse é um dos riscos de utilizar uma váriavel de referência para passar parâmetros, se você precisar modificar algo, ele vai alterar
+    // o código, no caso as referências
     }
+
 }
