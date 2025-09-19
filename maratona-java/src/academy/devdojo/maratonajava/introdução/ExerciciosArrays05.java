@@ -6,7 +6,7 @@ public class ExerciciosArrays05 {
         int menorNumero = numeros[0];
         int maiorNumero = numeros[0];
         double soma = 0;
-        double media = 0;
+        double media;
         int contadorPares = 0;
         for (int i = 0; i < numeros.length; i++) {
 

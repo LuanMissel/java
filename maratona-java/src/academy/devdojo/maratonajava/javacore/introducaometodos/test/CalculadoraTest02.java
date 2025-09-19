@@ -6,9 +6,11 @@ import java.util.Scanner;
 
 public class CalculadoraTest02 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+         try (Scanner sc = new Scanner(System.in)) {
         Calculadora calculadora = new Calculadora();
         System.out.println("Digite dois números");
         calculadora.multiplicaDoisNumeros(sc.nextInt(),sc.nextInt());
+        sc.close();
     }
+}
 }

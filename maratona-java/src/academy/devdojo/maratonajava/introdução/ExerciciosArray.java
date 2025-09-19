@@ -8,9 +8,9 @@ public class ExerciciosArray {
         notas[2] = 6;
         notas[3] = 9;
         notas[4] = 6;
-        double m =  5;
+        double m =  notas.length;
         double somaNota = 0;
-        double mediaFinal = 0;
+        double mediaFinal;
         for (int i = 0; i < notas.length; i++){
             somaNota += notas[i];
 

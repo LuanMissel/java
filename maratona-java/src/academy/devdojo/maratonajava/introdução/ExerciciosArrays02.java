@@ -5,7 +5,7 @@ public class ExerciciosArrays02 {
         int [] numeros = {15,20,10,35,25};
         int maiorNumero = numeros[0];
         double soma = 0;
-        double media = 0;
+        double media;
         int ehPar = 0;
             for (int i = 0; i < numeros.length; i++) {
                 if (numeros [i] > maiorNumero) {

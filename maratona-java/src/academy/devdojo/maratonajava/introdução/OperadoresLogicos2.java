@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class OperadoresLogicos2 {
     public static void main(String[] args) {
-        Scanner aplicativo = new Scanner(System.in);
+        try (Scanner aplicativo = new Scanner(System.in)) {
         System.out.println("Você possui carro? ");
         String carro = aplicativo.nextLine();
         System.out.println("Você possui moto? ");
@@ -17,5 +17,6 @@ public class OperadoresLogicos2 {
 
         System.out.println("Pode ser contratado " + podeSerContratado);
         System.out.println("Não pode ser contratado " + notPodeSerContratado);
+        }
     }
 }
