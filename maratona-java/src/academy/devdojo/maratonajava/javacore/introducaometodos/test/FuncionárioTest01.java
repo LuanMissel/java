@@ -12,6 +12,4 @@ public class FuncionárioTest01 {
         funcionario.mostrarDados();
         System.out.println("Media: " + funcionario.getMedia());
     }
-
-
 }
