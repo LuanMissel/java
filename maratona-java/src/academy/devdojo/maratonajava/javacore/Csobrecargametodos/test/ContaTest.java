@@ -13,8 +13,8 @@ public class ContaTest {
             contaBancaria.getdados();
             System.out.println("Qual valor você quer resgatar? " + " Se for um valor maior que 50 reais, digite uma taxa de 30  reais (digite o valor que quer resgatar e o valor da taxa)");
             contaBancaria.sacar(saldoConta.nextDouble(), saldoConta.nextDouble());
-//            System.out.println("Qual o valor que você quer depositar na conta? ");
-//            contaBancaria.depositar(saldoConta.nextDouble());
+            System.out.println("Qual o valor que você quer depositar na conta? ");
+            contaBancaria.depositar(saldoConta.nextDouble());
             contaBancaria.getdados();
         }
     }

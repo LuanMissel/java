@@ -1,9 +1,9 @@
 package src.academy.devdojo.maratonajava.javacore.Csobrecargametodos.dominio;
 
 public class ContaBancaria {
-    String nomeDoTitular;
-    int agencia;
-    double saldo;
+    private String nomeDoTitular;
+    private int agencia;
+    private double saldo;
 
     public ContaBancaria (String nome, int agencia, double saldo) {
         this.setdados(nome, agencia, saldo);
