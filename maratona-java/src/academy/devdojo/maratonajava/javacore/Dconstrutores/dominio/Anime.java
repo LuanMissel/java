@@ -22,6 +22,7 @@ public class Anime {
     public Anime() {
 
     }
+
     public void init (String nome, String tipo, int episodios) {
         this.nome = nome;
         this.tipo = tipo;

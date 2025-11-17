@@ -9,7 +9,7 @@ public class Jogador {
     }
 
     public void Imprime() {
-        System.out.println("Jogador" + this.nome);
+        System.out.println("Jogador: " + this.nome);
         if (time != null) {
             System.out.println("Time: " + time.getNome());
         }

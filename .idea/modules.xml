@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ProjetoEmPOO/ProjetoEmPOO.iml" filepath="$PROJECT_DIR$/ProjetoEmPOO/ProjetoEmPOO.iml" />
-      <module fileurl="file://$PROJECT_DIR$/horadosistema/horadosistema.iml" filepath="$PROJECT_DIR$/horadosistema/horadosistema.iml" />
       <module fileurl="file://$PROJECT_DIR$/projeto.iml" filepath="$PROJECT_DIR$/projeto.iml" />
     </modules>
   </component>

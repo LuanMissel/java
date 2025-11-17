@@ -1,21 +1,22 @@
 package javaproject.luanmissel.poo.dominio;
 
 public class Funcionarios {
-    private String nome;
 
-    public Funcionarios(String nome) {
-        this.nome = nome;
+    private String funcionarios;
+
+    public Funcionarios(String fucionarios) {
+        this.funcionarios = fucionarios;
     }
 
-    public Funcionarios() {
-    
+    public void imprimir1() {
+        System.out.println(this.funcionarios);
     }
 
-    public String getNome() {
-        return nome;
+    public void setFuncionarios(String funcionarios) {
+        this.funcionarios = funcionarios;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public String getFuncionarios() {
+        return this.funcionarios;
     }
 }
