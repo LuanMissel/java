@@ -4,29 +4,28 @@ public class Endereco {
     private String rua;
     private String cep;
 
-    public Endereco() {
-
-    }
+    // Constructors
 
     public Endereco(String rua, String cep) {
         this.rua = rua;
         this.cep = cep;
     }
 
+    //getters and setters
 
-    public String getRua() {
-        return rua;
+    public void setRua (String Rua){
+        this.rua = Rua;
     }
 
-    public void setRua(String rua) {
-        this.rua = rua;
+    public String getRua(){
+        return this.rua;
+    }
+
+    public void setCep (String Cep){
+       this.cep = Cep;
     }
 
     public String getCep() {
-        return cep;
-    }
-
-    public void setCep(String cep) {
-        this.cep = cep;
+        return this.cep;
     }
 }

@@ -5,7 +5,6 @@ import src.academy.devdojo.maratonajava.javacore.Gassociacao.dominio.Local;
 import src.academy.devdojo.maratonajava.javacore.Gassociacao.dominio.ProfessorSeminario;
 import src.academy.devdojo.maratonajava.javacore.Gassociacao.dominio.Seminario;
 
-import java.util.ArrayList;
 
 public class SeminarioTest {
     public static void main(String[] args) {

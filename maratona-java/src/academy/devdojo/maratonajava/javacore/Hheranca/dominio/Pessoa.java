@@ -1,43 +1,65 @@
 package src.academy.devdojo.maratonajava.javacore.Hheranca.dominio;
 
 public class Pessoa {
-    private String nome;
+    protected String nome;
+    private int idade;
     private String cpf;
     private Endereco endereco;
 
-    public void imprime(){
-        System.out.println("Nome: "+this.nome);
-        System.out.println("CPF: "+this.cpf);
-        System.out.println("Rua: " + Pessoa.this.endereco.getRua() + " " + Pessoa.this.endereco.getCep());
+    // Constructors
+
+    public Pessoa () {
+
     }
 
-    public Pessoa(String nome, String cpf, Endereco endereco) {
+    public Pessoa(String nome, int idade, String cpf) {
         this.nome = nome;
-        this.cpf = cpf;
-        this.endereco = endereco;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getCpf() {
-        return cpf;
-    }
-
-    public void setCpf(String cpf) {
+        this.idade = idade;
         this.cpf = cpf;
     }
 
-    public Endereco getEndereco() {
-        return endereco;
+    public Pessoa (String nome, int idade, String cpf, Endereco endereco) {
+        this(nome, idade, cpf);
+        this.endereco = endereco;
     }
 
-    public void setEndereco(Endereco endereco) {
+    // Print Method
+
+    public void Imprime() {
+        System.out.println("Nome: " + this.nome);
+        System.out.println("Idade: " + this.idade);
+        System.out.println("CPF: " + this.cpf);
+        System.out.println("Endereço: " + this.getEndereco().getRua());
+        System.out.println("Cep: " + this.getEndereco().getCep());
+    }
+
+   // getters and setters
+
+    public void setNome (String nome){
+        this.nome = nome;
+    }
+
+    public void setIdade (int idade){
+        this.idade = idade;
+    }
+
+    public void setCpf (String cpf){
+        this.cpf = cpf;
+    }
+
+    public void setEndereco (Endereco endereco){
         this.endereco = endereco;
+    }
+    public String getNome(){
+        return this.nome;
+    }
+    public int getIdade(){
+        return this.idade;
+    }
+    public String getcPF (){
+        return this.cpf;
+    }
+    public Endereco getEndereco(){
+        return this.endereco;
     }
 }
