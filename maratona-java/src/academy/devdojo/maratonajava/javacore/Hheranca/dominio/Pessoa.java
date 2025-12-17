@@ -8,7 +8,7 @@ public class Pessoa {
 
     // Constructors
 
-    public Pessoa () {
+    public Pessoa() {
 
     }
 
@@ -18,7 +18,7 @@ public class Pessoa {
         this.cpf = cpf;
     }
 
-    public Pessoa (String nome, int idade, String cpf, Endereco endereco) {
+    public Pessoa(String nome, int idade, String cpf, Endereco endereco) {
         this(nome, idade, cpf);
         this.endereco = endereco;
     }
@@ -33,33 +33,37 @@ public class Pessoa {
         System.out.println("Cep: " + this.getEndereco().getCep());
     }
 
-   // getters and setters
+    // getters and setters
 
-    public void setNome (String nome){
+    public void setNome(String nome) {
         this.nome = nome;
     }
 
-    public void setIdade (int idade){
+    public void setIdade(int idade) {
         this.idade = idade;
     }
 
-    public void setCpf (String cpf){
+    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
 
-    public void setEndereco (Endereco endereco){
+    public void setEndereco(Endereco endereco) {
         this.endereco = endereco;
     }
-    public String getNome(){
+
+    public String getNome() {
         return this.nome;
     }
-    public int getIdade(){
+
+    public int getIdade() {
         return this.idade;
     }
-    public String getcPF (){
+
+    public String getcPF() {
         return this.cpf;
     }
-    public Endereco getEndereco(){
+
+    public Endereco getEndereco() {
         return this.endereco;
     }
 }
