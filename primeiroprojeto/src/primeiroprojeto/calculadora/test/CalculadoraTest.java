@@ -34,6 +34,8 @@ public class CalculadoraTest {
                 calculadora.imprimir();
             }
         }
+        System.out.println("Progama Finalizado!");
+        numeros.close();
     }
 }
 
