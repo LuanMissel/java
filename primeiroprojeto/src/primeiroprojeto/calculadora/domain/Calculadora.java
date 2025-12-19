@@ -37,6 +37,19 @@ public class Calculadora {
         }
     }
 
+    public void potencia () {
+        if (num1 == num2) {
+            resultado = num1 * num2;
+        }
+        else if (num1 != num2){
+            System.out.println("Erro ao imprimir");
+        }
+    }
+
+    public void raizQuadrada() {
+
+    }
+
     public void imprimir() {
         System.out.println("Resultado " + resultado);
     }
