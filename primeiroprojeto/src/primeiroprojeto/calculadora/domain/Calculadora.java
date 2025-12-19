@@ -42,7 +42,8 @@ public class Calculadora {
             resultado = num1 * num2;
         }
         else if (num1 != num2){
-            System.out.println("Erro ao imprimir");
+            System.out.println("Se forem dois números diferentes não é possivel fazer o cálculo!");
+            return;
         }
     }
 
