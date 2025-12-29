@@ -1,14 +1,12 @@
 package primeiroprojeto.calculadora.test;
 
-import primeiroprojeto.calculadora.domain.Calculadora;
-
 import java.util.Scanner;
+import primeiroprojeto.calculadora.domain.Calculadora;
 
 public class CalculadoraTest {
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora();
-        try {
-            Scanner numeros = new Scanner(System.in);
+        try (Scanner numeros = new Scanner(System.in)) {
             int opcao = 0;
             while (opcao != 6) {
                 System.out.println("====Calculadora====");
@@ -32,11 +30,12 @@ public class CalculadoraTest {
                         case 2 -> calculadora.subtrair();
                         case 3 -> calculadora.mutiplicar();
                         case 4 -> calculadora.dividir();
-                        case  5 -> calculadora.potencia();
+                        case 5 -> calculadora.potencia();
                     }
                     calculadora.imprimir();
                 }
             }
+            numeros.close();
         } finally {
             System.out.println("Progama Finalizado!");
         }
