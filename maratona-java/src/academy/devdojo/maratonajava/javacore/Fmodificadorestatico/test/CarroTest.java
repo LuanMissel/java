@@ -8,7 +8,7 @@ public class CarroTest {
         Carro c2 = new Carro("Mercedes", 250);
         Carro c3 = new Carro("Audi", 250);
 
-        Carro.setVelocidadeLimite (180);
+        Carro.setVelocidadeLimite(180);
 
         c1.Imprime();
         c2.Imprime();
