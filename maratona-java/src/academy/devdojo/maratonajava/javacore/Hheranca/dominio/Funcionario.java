@@ -8,6 +8,10 @@ public class Funcionario extends Pessoa{
 
     // Construtores
 
+    public Funcionario(String nome) {
+        super(nome);
+    }
+
     public Funcionario(String nome, int idade, String cpf, String contaBancaria, double salario) {
         super(nome, idade, cpf);
         this.contaBancaria = contaBancaria;
