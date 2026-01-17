@@ -12,6 +12,7 @@ public class SistemaBancarioTest {
         conta.setSaldo(20000);
         int opcao = 0;
         int valorDigitado = 0;
+        System.out.println("Olá " + cliente);
         System.out.println(conta);
         while (opcao != 4) {
             System.out.println("Qual opção você escolhe? ");

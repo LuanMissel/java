@@ -21,7 +21,7 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente " + "nome = " + nome + " cpf = " + cpf + " endereco = " + endereco + ", telefone = " + telefone;
+        return nome + " cpf = " + cpf + " endereco = " + endereco + ", telefone = " + telefone;
     }
 
 // getters and setters
