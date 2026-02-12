@@ -1,4 +1,4 @@
-package src.academy.devdojo.maratonajava.javacore.lclassesabstratas.dominio;
+package src.academy.devdojo.maratonajava.javacore.Lclassesabstratas.dominio;
 
 public class Desenvolvedor extends Funcionario{
     public Desenvolvedor(String nome, double salario) {

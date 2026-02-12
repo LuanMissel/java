@@ -12,7 +12,6 @@ public class HtmlAnalyzer {
         try {
             analyzeUrl(args[0]);
         } catch (IOException e) {
-
             System.out.println("URL connection error");
         }
     }
