@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/sistemadepagamento/javacore/javacora.iml" filepath="$PROJECT_DIR$/sistemadepagamento/javacore/javacora.iml" />
       <module fileurl="file://$PROJECT_DIR$/primeiroprojeto/primeiroprojeto.iml" filepath="$PROJECT_DIR$/primeiroprojeto/primeiroprojeto.iml" />
       <module fileurl="file://$PROJECT_DIR$/project_axur/project_axur.iml" filepath="$PROJECT_DIR$/project_axur/project_axur.iml" />
       <module fileurl="file://$PROJECT_DIR$/projeto.iml" filepath="$PROJECT_DIR$/projeto.iml" />
