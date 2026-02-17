@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Aula04Operadores {
     public static void main(String[] args) {
-         try (Scanner age = new Scanner(System.in)) {
+        Scanner age = new Scanner(System.in);
         // + _ / *
         int numero01= 10;
         double numero02= 20;
@@ -64,7 +64,7 @@ public class Aula04Operadores {
         ++contador;
         --contador;
         System.out.println("Contador " + contador);
-        }
+
 
     }
 }
